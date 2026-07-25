@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">VecoAccess abstract banner</title>
+  <desc id="desc">Dark gold abstract illustration representing payments and microservices.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070707"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#1a1305"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8f6d13"/>
+      <stop offset="45%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#f0d77a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#d4af37" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+
+  <g opacity="0.22" stroke="#ffffff" stroke-width="1">
+    <path d="M0 140H1200"/>
+    <path d="M0 260H1200"/>
+    <path d="M0 380H1200"/>
+    <path d="M0 500H1200"/>
+    <path d="M0 620H1200"/>
+    <path d="M160 0V800"/>
+    <path d="M320 0V800"/>
+    <path d="M480 0V800"/>
+    <path d="M640 0V800"/>
+    <path d="M800 0V800"/>
+    <path d="M960 0V800"/>
+  </g>
+
+  <g filter="url(#blur)" opacity="0.55">
+    <circle cx="235" cy="220" r="78" fill="#d4af37" fill-opacity="0.26"/>
+    <circle cx="965" cy="585" r="105" fill="#d4af37" fill-opacity="0.18"/>
+  </g>
+
+  <g transform="translate(110 120)">
+    <rect x="0" y="0" width="980" height="560" rx="34" fill="#0d0d0d" fill-opacity="0.62" stroke="#d4af37" stroke-opacity="0.38"/>
+
+    <g transform="translate(64 68)">
+      <text x="0" y="0" fill="#f5e7b0" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="6">VECOACCESS</text>
+      <text x="0" y="42" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Payments & Microservices</text>
+      <text x="0" y="84" fill="#cfcfcf" font-family="Arial, Helvetica, sans-serif" font-size="22">Secure banking flows, APIs and transactional modules</text>
+    </g>
+
+    <g transform="translate(64 196)">
+      <rect x="0" y="0" width="852" height="198" rx="24" fill="#101010" stroke="#d4af37" stroke-opacity="0.24"/>
+      <g transform="translate(48 42)" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="22" width="126" height="78" rx="18"/>
+        <path d="M162 60h90"/>
+        <path d="M288 60h90"/>
+        <path d="M414 60h90"/>
+        <path d="M540 60h90"/>
+      </g>
+      <g transform="translate(48 42)" fill="#d4af37" opacity="0.88">
+        <circle cx="63" cy="61" r="12"/>
+        <circle cx="207" cy="61" r="8"/>
+        <circle cx="333" cy="61" r="8"/>
+        <circle cx="459" cy="61" r="8"/>
+        <circle cx="585" cy="61" r="8"/>
+        <circle cx="711" cy="61" r="8"/>
+      </g>
+      <g transform="translate(640 28)">
+        <rect x="0" y="0" width="148" height="140" rx="18" fill="#181818" stroke="#d4af37" stroke-opacity="0.35"/>
+        <path d="M40 44h68v46H40z" fill="none" stroke="url(#gold)" stroke-width="6"/>
+        <path d="M56 90V66h36v24" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="74" cy="54" r="6" fill="#d4af37"/>
+      </g>
+    </g>
+
+    <g transform="translate(64 438)">
+      <rect x="0" y="0" width="852" height="66" rx="18" fill="#121212" stroke="#d4af37" stroke-opacity="0.18"/>
+      <text x="28" y="42" fill="#e8e8e8" font-family="Arial, Helvetica, sans-serif" font-size="20">Transactional Web Platform</text>
+      <text x="560" y="42" fill="#d4af37" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Scotiabank • PayPal • Payeezy • Banesco</text>
+    </g>
+  </g>
+</svg>

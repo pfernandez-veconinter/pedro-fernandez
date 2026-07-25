@@ -9,6 +9,7 @@
 
 import cvPdfUrl from "../assets/files/CV Pedro Fernandez.pdf";
 import pedroImageUrl from "../assets/images/pedro.jpg";
+import vecoAccessImageUrl from "../assets/images/vecoaccess.svg";
 
 export interface ServiceItem {
   id: string;
@@ -212,8 +213,7 @@ export const PROFILE_DATA = {
         "SQL Server",
       ],
       metrics: "Integración de 4 pasarelas bancarias críticas",
-      image:
-        "https://images.unsplash.com/photo-1556742049-0a67daf64f42?auto=format&fit=crop&w=800&q=80",
+      image: vecoAccessImageUrl,
       highlights: [
         "Arquitectura de microservicios para aislamiento de transacciones de pago",
         "Mantenimiento continuo y nuevas características para la plataforma VecoAccess",
