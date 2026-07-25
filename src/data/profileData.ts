@@ -8,6 +8,7 @@
  */
 
 import cvPdfUrl from "../assets/files/CV Pedro Fernandez.pdf";
+import pedroImageUrl from "../assets/images/pedro.jpg";
 
 export interface ServiceItem {
   id: string;
@@ -75,7 +76,7 @@ export const PROFILE_DATA = {
       period: "2013 - 2021",
     },
     // Imagen de perfil principal
-    profileImage: "/src/assets/images/pedro.jpg",
+    profileImage: pedroImageUrl,
     cvDownloadUrl: cvPdfUrl,
   },
 
